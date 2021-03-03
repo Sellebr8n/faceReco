@@ -7,7 +7,7 @@ gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 faces = face_cascade.detectMultiScale(
     gray_img, 
-    scaleFactor=1.1, #increase with 5%
+    scaleFactor=1.05, #increase with 5%
     minNeighbors=3
 )
 
